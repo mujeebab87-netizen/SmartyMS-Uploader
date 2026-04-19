@@ -105,7 +105,8 @@ async def main():
         
 class Data:
     START = (
-        "🌟 Welcome Nalayak Or padhai toh ho ri hai na🌚💥 {0}! 🌟\n\n"
+        "🌟★彡[ᴡᴇʟᴄᴏᴍᴇ]彡★ 𝐀𝐚 𝐠𝐚𝐲𝐞 𝐚𝐩 𝐚𝐩𝐤𝐚 𝐡𝐢 𝐢𝐧𝐭𝐞𝐳𝐚𝐫 𝐭𝐡𝐚 🫣 
+𝐂𝐡𝐚𝐥𝐨 𝐚𝐛 𝐚𝐩𝐧𝐚 𝐤𝐚𝐦 𝐩𝐚𝐫 𝐟𝐨𝐜𝐮𝐬 𝐊𝐚𝐫𝐨 😉🤓  {0}! 🌟\n\n"
     )
 # Define the start command handler
 @bot.on_message(filters.command("start"))
