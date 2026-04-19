@@ -105,7 +105,7 @@ async def main():
         
 class Data:
     START = (
-        "🌟★彡[ᴡᴇʟᴄᴏᴍᴇ]彡★ 𝐀𝐚 𝐠𝐚𝐲𝐞 𝐚𝐩 𝐚𝐩𝐤𝐚 𝐡𝐢 𝐢𝐧𝐭𝐞𝐳𝐚𝐫 𝐭𝐡𝐚 🫣 
+        "🌟★彡[ᴡᴇʟᴄᴏᴍᴇ]彡★ 𝐀𝐚 𝐠𝐚𝐲𝐞 𝐚𝐩 𝐚𝐩𝐤𝐚 𝐡𝐢 𝐊𝐚 𝐢𝐧𝐭𝐞𝐳𝐚𝐫 𝐭𝐡𝐚 🫣 
 𝐂𝐡𝐚𝐥𝐨 𝐚𝐛 𝐚𝐩𝐧𝐚 𝐤𝐚𝐦 𝐩𝐚𝐫 𝐟𝐨𝐜𝐮𝐬 𝐊𝐚𝐫𝐨 😉🤓  {0}! 🌟\n\n"
     )
 # Define the start command handler
@@ -312,8 +312,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**📹 VID_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} {res}.mkv\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By♠ : {CR}\n\n**∘₊❀╬━━⫷⫸𝐀𝐋𝐈⫷⫸━━╬❀₊∘**'
-                cc1 = f'**💾 PDF_ID: {str(count).zfill(3)}.\n\n📝 Title: {name1} .pdf\n\n<pre><code>📚 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By♠ : {CR}\n\n**∘₊❀╬━━⫷⫸𝐀𝐋𝐈⫷⫸━━╬❀₊∘**'
+                cc = f'**📹 VID_ID: {str(count).zfill(3)}.\n\n🧾 Title: {name1} {res}.mkv\n\n<pre><code>🎯 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By♠ : {CR}\n\n**∘₊❀╬━━⫷⫸𝐀𝐋𝐈⫷⫸━━╬❀₊∘**'
+                cc1 = f'**💾 PDF_ID: {str(count).zfill(3)}.\n\n🧾 Title: {name1} .pdf\n\n<pre><code>🎯 Batch Name: {b_name}</code></pre>\n\n📥 Extracted By♠ : {CR}\n\n**∘₊❀╬━━⫷⫸𝐀𝐋𝐈⫷⫸━━╬❀₊∘**'
                     
                 
                 if "drive" in url:
@@ -392,13 +392,14 @@ async def txt_handler(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("𝐀𝐋𝐋 𝐃𝐎𝐍𝐄 Reaction khud de doge ya kahna padega ✅🔸")
+    await m.reply_text("𝐀𝐋𝐋 𝐃𝐎𝐍𝐄 𝐊𝐡𝐚𝐢𝐫 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧 𝐭𝐨𝐡 𝐭𝐮𝐦 𝐝𝐨𝐠𝐞 𝐧𝐚𝐡𝐢 😒 
+𝐒𝐚𝐫𝐦 𝐣𝐨 𝐧𝐚 𝐡𝐚𝐢 😏🔸")
 
 # Advance
 
 @bot.on_message(filters.command(["Ali"]) )
 async def txt_handler(bot: Client, m: Message):
-    editable = await m.reply_text(f"**🔹Hi I am Poweful Lovely TXT Downloader📥 Bot.**\n🔹**Send me the TXT file and Just wait and Watch🥵.**")
+    editable = await m.reply_text(f"**🔹Hi I am Poweful Lovely TXT Downloader🤓😉 Bot.**\n🔹**Send me the TXT file and Just wait and Watch🥵.**")
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -546,8 +547,8 @@ async def txt_handler(bot: Client, m: Message):
 
             try:  
         
-                cc = f'**📹 VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} STUDENTS💛{res}.mkv\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By♠ : {CR}\n\n**∘₊✿━━━✿༄Mahi✿━━━✿₊∘**'
-                cc1 = f'**💾 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} STUDENTS💛.pdf\n\n📚 Batch Name: {b_name}\n\n📥 Extracted By♠ : {CR}\n\n**∘₊✿━━━✿༄Mahi✿━━━✿₊∘**'
+                cc = f'**📹 VID_ID: {str(count).zfill(3)}.\n\nTitle: {name1} STUDENTS💛{res}.mkv\n\n📚 Batch Name: {b_name}\n\n💌 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙗𝙮🪷: {CR}\n\n**∘₊✿━━━✿༄Mahi✿━━━✿₊∘**'
+                cc1 = f'**💾 PDF_ID: {str(count).zfill(3)}.\n\nTitle: {name1} STUDENTS💛.pdf\n\n📚 Batch Name: {b_name}\n\n💌 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝙗𝙮🪷 : {CR}\n\n**∘₊✿━━━✿༄Mahi✿━━━✿₊∘**'
                     
                 
                 if "drive" in url:
